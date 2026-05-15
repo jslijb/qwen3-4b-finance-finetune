@@ -1,0 +1,32 @@
+# 原始数据集（体积大，从远端克隆）
+ceval/
+mmlu/
+financial_evaluation_dataset/
+
+# 模型文件
+*.safetensors
+*.safetensors.index.json
+tokenizer.json
+tokenizer_config.json
+vocab.json
+merges.txt
+config.json
+configuration.json
+generation_config.json
+
+# 系统文件
+.msc
+.mv
+
+# 截图
+微调1.png
+微调2.png
+微调3.png
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 临时文件
+req.md
